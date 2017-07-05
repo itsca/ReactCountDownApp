@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"Rea",
+				"ReactDom"
+			],
+			[
 				"s",
 				"subcription\tproperty"
 			],
@@ -510,20 +514,37 @@
 			[
 				"gu",
 				"gulpif"
-			],
-			[
-				"sa",
-				"sassStyle"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "package.json",
+			"file": "src/index.js",
 			"settings":
 			{
-				"buffer_size": 351,
+				"buffer_size": 150,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "import React, { Component } from 'react';\n\nexport class App extends Component {\n\trender() {\n\t\treturn (\n\t\t\t<div>\n\t\t\t\t<div>\n\t\t\t\t\tCount Down to December\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t);\n\t}\n}\n\nexport default App;",
+			"file": "src/app.jsx",
+			"file_size": 171,
+			"file_write_time": 131437588237978921,
+			"settings":
+			{
+				"buffer_size": 201,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/index.html",
+			"settings":
+			{
+				"buffer_size": 1590,
 				"line_ending": "Unix"
 			}
 		}
@@ -535,10 +556,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "",
+		"height": 173.0,
+		"last_filter": "insta",
 		"selected_items":
 		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"impor",
+				"Import Helper: Update imports"
+			],
 			[
 				"",
 				"Emmet: Expand Abbreviation"
@@ -578,13 +607,9 @@
 			[
 				"pac",
 				"Package Control: Install Package"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 416.0
 	},
 	"console":
 	{
@@ -605,7 +630,9 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Itsca/Desktop/Web Development/tutoriales/React Course/count-down-app"
+		"/C/Users/Itsca/Desktop/Web Development/tutoriales/React Course/count-down-app",
+		"/C/Users/Itsca/Desktop/Web Development/tutoriales/React Course/count-down-app/public",
+		"/C/Users/Itsca/Desktop/Web Development/tutoriales/React Course/count-down-app/src"
 	],
 	"file_history":
 	[
@@ -899,16 +926,73 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "package.json",
+					"file": "src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								114,
+								114
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/app.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 201,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								149,
+								149
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/index.html",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 351,
+						"buffer_size": 1590,
 						"regions":
 						{
 						},
@@ -921,15 +1005,16 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 114.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
