@@ -529,22 +529,10 @@
 			}
 		},
 		{
-			"contents": "import React, { Component } from 'react';\n\nexport class App extends Component {\n\trender() {\n\t\treturn (\n\t\t\t<div>\n\t\t\t\t<div>\n\t\t\t\t\tCount Down to December\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t);\n\t}\n}\n\nexport default App;",
-			"file": "src/app.jsx",
-			"file_size": 171,
-			"file_write_time": 131437588237978921,
-			"settings":
-			{
-				"buffer_size": 201,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "public/index.html",
 			"settings":
 			{
-				"buffer_size": 1590,
+				"buffer_size": 1696,
 				"line_ending": "Unix"
 			}
 		}
@@ -636,6 +624,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Itsca/Desktop/Web Development/tutoriales/React Course/count-down-app/src/app.jsx",
 		"/C/Users/Itsca/Desktop/Web Development/personal/angular 4 course/recipeApp/src/app/recipes/recipe-list/recipe-list.component.ts",
 		"/C/Users/Itsca/Desktop/Web Development/personal/angular 4 course/recipeApp/src/app/recipes/recipe-edit/recipe-edit.component.ts",
 		"/C/Users/Itsca/Desktop/Web Development/personal/angular 4 course/recipeApp/src/app/recipes/recipe-edit/recipe-edit.component.html",
@@ -762,8 +751,7 @@
 		"/C/Users/Itsca/Desktop/Portfolio/v3/components/scripts/init.js",
 		"/C/Users/Itsca/Desktop/Portfolio/v3/builds/development/images/clip-shape.svg",
 		"/C/Users/Itsca/Desktop/circleanimationtrials/portfolio.html",
-		"/C/Users/Itsca/Desktop/circleanimationtrials/_portfolio.scss",
-		"/C/Users/Itsca/Desktop/circleanimationtrials/controlers.js"
+		"/C/Users/Itsca/Desktop/circleanimationtrials/_portfolio.scss"
 	],
 	"find":
 	{
@@ -926,7 +914,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -942,8 +930,8 @@
 						"selection":
 						[
 							[
-								114,
-								114
+								147,
+								147
 							]
 						],
 						"settings":
@@ -955,44 +943,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/app.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 201,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								149,
-								149
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "public/index.html",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1590,
+						"buffer_size": 1696,
 						"regions":
 						{
 						},
@@ -1014,7 +974,7 @@
 						"translation.y": 114.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
